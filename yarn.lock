@@ -2552,6 +2552,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/storybook-addon@npm:^4.0.16":
+  version: 4.0.17
+  resolution: "@chakra-ui/storybook-addon@npm:4.0.17"
+  peerDependencies:
+    "@chakra-ui/react": 0.0.0-dev-20230112160451
+    "@storybook/addons": ">=6.4"
+    "@storybook/api": ">=6.4"
+    "@storybook/components": ">=6.4"
+    react: ">=16.8.x"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 6a5979029eb5375718c0cf0dd3ffdf80bead31a35d2a89cddd91101a9c4e91ddd18887391cba0b8fa6c3e1ba988d84a830d1283c86df4b9a26e62b0c03ef3e75
+  languageName: node
+  linkType: hard
+
 "@chakra-ui/styled-system@npm:1.19.0":
   version: 1.19.0
   resolution: "@chakra-ui/styled-system@npm:1.19.0"
@@ -22138,6 +22156,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@chakra-ui/storybook-addon": ^4.0.16
     "@redwoodjs/core": 4.1.4
   languageName: unknown
   linkType: soft
@@ -25168,6 +25187,7 @@ __metadata:
     "@redwoodjs/router": 4.1.4
     "@redwoodjs/web": 4.1.4
     framer-motion: ^6
+    humanize-string: 2.1.0
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2

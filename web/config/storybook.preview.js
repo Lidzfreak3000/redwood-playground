@@ -13,6 +13,14 @@ const _exampleDecorator = (StoryFn, _context) => {
   return <StoryFn />
 }
 const extendedTheme = extendTheme(theme)
+const extendedTheme = extendTheme(theme)
+const withChakra = (StoryFn) => {
+  return (
+    <ChakraProvider theme={extendedTheme}>
+      <StoryFn />
+    </ChakraProvider>
+  )
+}
 const withChakra = (StoryFn) => {
   return (
     <ChakraProvider theme={extendedTheme}>

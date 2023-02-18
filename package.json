@@ -7,6 +7,7 @@
     ]
   },
   "devDependencies": {
+    "@chakra-ui/storybook-addon": "^4.0.16",
     "@redwoodjs/core": "4.1.4"
   },
   "eslintConfig": {
